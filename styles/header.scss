@@ -1,0 +1,38 @@
+@import './colors.scss';
+
+.flexSeparator {
+    margin-left: auto;
+}
+
+.headerBlock {
+    align-items: center;
+    background-color: $light2;
+    display: flex;
+    font-size: 12px;
+    padding: 6px 13px;
+
+    .iconHeader {
+        margin: 0 2px;
+    }
+
+    .timerBlock {
+        margin-right: 8px;
+    }
+}
+
+.headerNavBlock {
+    align-items: center;
+    background-color: $light;
+    border-bottom: 2px solid #eeeeee;
+    display: flex;
+    font-size: 14px;
+    padding: 13px;
+
+    .headerTitle {
+        margin: 0 20px;
+    }
+
+    svg {
+        cursor: pointer;
+    }
+}

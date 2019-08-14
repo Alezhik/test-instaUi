@@ -1,0 +1,22 @@
+@import './styles/colors.scss';
+
+#root {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  height: 750px;
+  max-width: 375px;
+  min-width: 320px;
+}
+
+.scrollView {
+  max-height: 625px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}

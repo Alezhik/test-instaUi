@@ -1,0 +1,41 @@
+@import './colors.scss';
+
+.footerBlock {
+    align-items: center;
+    background-color: $black;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+    padding: 17px 13px;
+
+    .whiteBlock {
+        background-color: $white;
+        border-radius: 5px;
+        height: 10px;
+        width: 26px;
+    }
+
+    .enpteyBlock {
+        width: 24px;
+    }
+}
+
+.footerNavBlock {
+    align-items: center;
+    background-color: $light;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 13px;
+
+    .avatarNavItem {
+        background-color: $bisque;
+        border-radius: 12px;
+        cursor: pointer;
+        height: 24px;
+        width: 24px;
+    }
+}
+
+svg {
+    cursor: pointer;
+}
